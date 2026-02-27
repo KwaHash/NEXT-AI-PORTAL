@@ -4,16 +4,18 @@ import { Table, TableBody, TableCell, TableRow } from '@/components/ui/table'
 import { cn } from '@/lib/utils'
 
 const CompanyOverviewData: { label: string; value: string }[] = [
-	{ label: '会社名', value: 'XXX株式会社' },
-	{ label: '設立', value: '2007年9月18日' },
-	{ label: '資本金', value: '10,000,000円' },
-	{ label: '代表取締役', value: '村上 竜太' },
-	{ label: '所在地', value: '〒064-0912 札幌市中央区南12条西7丁目1-2' },
-	{ label: '電話', value: '011-530-6633' },
-	{ label: 'FAX', value: '011-530-6665' },
-	{ label: '事業内容', value: '不動産関連情報サービス事業' },
-	{ label: '従業員数', value: '10名' },
-	{ label: '取引銀行', value: '北海道銀行' },
+	{ label: '会社名', value: '株式会社ユタカホーム' },
+	{ label: '設立', value: '2011年（平成23年）9月' },
+	{ label: '代表取締役', value: '谷口 豊和' },
+	{ label: '本社所在地', value: '〒114-0023　東京都北区滝野川7-35-10アルス立野岡 東棟1F' },
+  { label: '東京支社所在地', value: '〒114-0023　東京都北区滝野川7-35-10アルス立野岡 西棟1F' },
+	{ label: '電話', value: '0120-546-111' },
+	{ label: 'FAX', value: '03-5972-1831' },
+	{ label: '従業員数', value: '45名' },
+	{ label: '主要取引銀行', value: '千葉興業銀行、みずほ銀行、りそな銀行、三菱東京ＵＦＪ銀行' },
+  { label: '加入機構', value: '三井住友海上火災保険株式会社、あいおいニッセイ同和損保' },
+  { label: '事業年度', value: '毎年9月1日から翌年8月31日まで' },
+  { label: '事業内容', value: '一般住宅建設・ビル・マンショントータルリフォーム' },
 ]
 
 const OperatingCompanyPage = () => {

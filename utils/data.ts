@@ -53,10 +53,11 @@ export const services = [
 ]
 
 export const supports = [
-  { linkUrl: '/terms', text: '利用規約' },
-  { linkUrl: '/privacy', text: 'プライバシーポリシー' },
-  { linkUrl: '/faq', text: 'よくある質問' },
-  { linkUrl: '/contact', text: 'お問い合わせ' },
+  { text: '利用規約', url: '/terms' },
+  { text: 'プライバシーポリシー', url: '/privacy'},
+  { text: 'よくある質問', url: '/faq' },
+  { text: 'お問い合わせ', url: '/contact' },
+	{ text: '運営会社', url: '/operating' },
 ]
 
 export const processSteps = [

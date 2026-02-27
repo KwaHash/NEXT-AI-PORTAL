@@ -44,9 +44,9 @@ const Footer = () => {
               <h4 className='font-semibold text-xl mb-4 border-b border-indigo-700/30 pb-1'>サポート</h4>
               <ul className='space-y-2 text-gray-300'>
                 {supports.map(support => (
-                  <li key={support.linkUrl}>
+                  <li key={support.url}>
                     <Link
-                      href={support.linkUrl}
+                      href={support.url}
                       className='hover:text-indigo-300 transition-colors font-medium flex items-center gap-3 group'
                     >
                       <span className='inline-block w-1.5 h-1.5 rounded-full bg-indigo-400 group-hover:scale-125 transition-transform' />

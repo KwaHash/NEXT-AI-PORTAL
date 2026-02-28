@@ -15,7 +15,10 @@ const config: Config = {
         'preserve-3d': 'preserve-3d',
       },
       colors: {
-        
+        'm-red': '#e73939',
+				'm-hover-red': '#c22f2f',
+  			'm-blue': '#006BFF',
+        'm-hover-blue': '#1363DF',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         primary: {
